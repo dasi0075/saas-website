@@ -17,5 +17,17 @@ img {
 }
 
 .logo {
-  width: 30%;
+  width: 20%;
+}
+
+.testimonies {
+  background-color: #aadbd7;
+}
+
+.collecting {
+  background-color: #dbef99;
+}
+
+footer {
+  background-color: #008f85;
 }

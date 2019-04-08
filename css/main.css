@@ -9,7 +9,7 @@ body {
 
 .btn {
   background-color: #008f85;
-  border-radius: 8px;
+  border-radius: 10px;
   border: none;
 }
 
@@ -18,6 +18,9 @@ img {
   max-width: auto;
 }
 
+h1 {
+  color: #008f85;
+}
 fieldset {
   border: none;
 }
@@ -26,11 +29,15 @@ fieldset {
 }
 
 .testimonials {
-  width: 25%;
+  width: 30%;
 }
 
 .testimonial-2 {
   width: 10%;
+}
+
+.maya {
+  width: 15%;
 }
 
 .testimonies {
@@ -52,6 +59,7 @@ fieldset {
 .fa-star {
   color: #dbef99;
 }
+
 
 footer {
   background-color: #008f85;

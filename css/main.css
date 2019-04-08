@@ -9,7 +9,7 @@ body {
 
 .btn {
   background-color: #008f85;
-  border-radius: 10px;
+  border-radius: 12px;
   border: none;
 }
 
@@ -31,6 +31,12 @@ a {
 fieldset {
   border: none;
 }
+
+.pie,
+.girl {
+  width: 40%;
+}
+
 .logo {
   width: 20%;
 }
@@ -57,6 +63,10 @@ fieldset {
 
 .responses {
   background-color: #dbef99;
+}
+
+.assay {
+  color: #dbef99;
 }
 
 .guy {

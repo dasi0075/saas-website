@@ -9,6 +9,8 @@ body {
 
 .btn {
   background-color: #008f85;
+  border-radius: 8px;
+  border: none;
 }
 
 img {
@@ -16,8 +18,19 @@ img {
   max-width: auto;
 }
 
+fieldset {
+  border: none;
+}
 .logo {
   width: 20%;
+}
+
+.testimonials {
+  width: 25%;
+}
+
+.testimonial-2 {
+  width: 10%;
 }
 
 .testimonies {
@@ -26,6 +39,18 @@ img {
 
 .collecting {
   background-color: #dbef99;
+}
+
+.responses {
+  background-color: #dbef99;
+}
+
+.guy {
+  width: 20%;
+}
+
+.fa-star {
+  color: #dbef99;
 }
 
 footer {

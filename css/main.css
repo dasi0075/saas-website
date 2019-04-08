@@ -21,6 +21,13 @@ img {
 h1 {
   color: #008f85;
 }
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #aadbd7;
+}
+
 fieldset {
   border: none;
 }
@@ -59,7 +66,6 @@ fieldset {
 .fa-star {
   color: #dbef99;
 }
-
 
 footer {
   background-color: #008f85;

@@ -90,8 +90,20 @@ fieldset {
   color: #dbef99;
 }
 
+h2 {
+  color: #dbef99;
+}
+
+h3 {
+  color: #3c7188;
+}
+
 .guy {
   width: 40%;
+}
+
+.computer {
+  width: 60%;
 }
 
 .fa-star {
@@ -145,6 +157,6 @@ footer {
   background-repeat: no-repeat;
 }
 
-.input {
-  border-radius: none;
+input {
+  border: 0;
 }

@@ -118,3 +118,7 @@ footer {
 .btn-light {
   color: #fff;
 }
+
+.btn:hover {
+  background-color: #ccc;
+}

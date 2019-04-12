@@ -41,6 +41,10 @@ a {
   color: #aadbd7;
 }
 
+.light-box {
+  background-color: #aadbd7;
+}
+
 fieldset {
   border: none;
 }
@@ -108,5 +112,9 @@ footer {
 
 .h2-white,
 .p-white {
+  color: #fff;
+}
+
+.btn-light {
   color: #fff;
 }

@@ -31,6 +31,10 @@ h1 {
   color: #008f85;
 }
 
+.about {
+  color: #008f85;
+}
+
 a {
   list-style-type: none;
   text-decoration: none;
@@ -62,6 +66,10 @@ fieldset {
   width: 15%;
 }
 
+.guy-knees {
+  width: 40%;
+}
+
 .testimonies {
   background-color: #aadbd7;
 }
@@ -88,4 +96,17 @@ fieldset {
 
 footer {
   background-color: #008f85;
+}
+
+.green-box {
+  background-color: #dbef99;
+}
+
+.teal-box {
+  background-color: #56c7bd;
+}
+
+.h2-white,
+.p-white {
+  color: #fff;
 }

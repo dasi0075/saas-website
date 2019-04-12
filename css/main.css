@@ -91,7 +91,7 @@ fieldset {
 }
 
 .guy {
-  width: 20%;
+  width: 40%;
 }
 
 .fa-star {
@@ -104,6 +104,10 @@ footer {
 
 .green-box {
   background-color: #dbef99;
+}
+
+.green {
+  color: #dbef99;
 }
 
 .teal-box {
@@ -121,4 +125,26 @@ footer {
 
 .btn:hover {
   background-color: #ccc;
+}
+
+.click {
+  color: #3c7188;
+}
+
+.image-right {
+  background-image: url("../images/background-right.png");
+  background-size: contain;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.image-left {
+  background-image: url("../images/background-left.png");
+  background-size: contain;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
+
+.input {
+  border-radius: none;
 }

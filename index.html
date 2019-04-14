@@ -9,26 +9,27 @@
   <link href="css/main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,500" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <header class="">
+  <header class="pad-t">
     <nav class="wrapper gutter-1-2" role="navigation">
       <div class="grid">
         <div class="unit xs-1-2 s-1-2 m-1-4 l-2-3 xl-2-3 text-left">
           <img class="logo" src="images/logo.png" alt="">
         </div>
         <div class="unit xs-1-2 s-1-2 m-2-3 l-2-3 xl-2-3 micro">
-          <ol class="nav list-group-inline">
-            <li><a class="ib gutter-1-2 btn" href="#signup">Sign Up</a></li>
+          <ol class="nav list-group-inline text-right">
+            <li><a class="ib gutter-1-2 btn" href="signup.html">Sign Up</a></li>
             <li><a class="ib gutter-1-2 btn" href="#login">Login</a></li>
           </ol>
         </div>
 
-        <div class="unit xs-1 s-1 m-2-3 l-2-3 xl-2-3 text-right">
-          <ol class="nav list-group-inline">
-            <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2 click" href="#products">Products</a></li>
-            <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#pricing">Pricing</a></li>
-            <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#about">About</a></li>
+        <div class="unit xs-1 s-1 m-2-3 l-2-3 xl-2-3">
+          <ol class="nav list-group-inline text-right">
+            <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2 click" href="products.html">Products</a></li>
+            <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="pricing.html">Pricing</a></li>
+            <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="about.html">About</a></li>
           </ol>
         </div>
       </div>
@@ -47,49 +48,126 @@
       <p class="btn">Try Now</p>
       <img class="computer" src="images/devices-with-survey.png" alt="">
     </div>
-    <div class="island">
+    <div class="island text-center">
       <h2 class="bold">Analize responses in real time</h2>
       <p>Assay offers you customized survey packages to help you engage with your customer</p>
+      <div>
+        <form class="select-form gutter island text-left push-r push-left">
+          <fieldset>
+            <legend>1. How would you describe your experience?</legend>
+            <div>
+              <label for="subject">Customer Service</label>
+              <select id="subject" name="fitness">
+                <option>Super Great</option>
+                <option>Great</option>
+                <option>Not so great</option>
+                <option>Awful</option>
+              </select>
+              <label for="subject">Survey</label>
+              <select id="subject" name="fitness">
+                <option>Super Great</option>
+                <option>Great</option>
+                <option>Not so great</option>
+                <option>Awful</option>
+              </select>
+              <label for="subject">Time of wait</label>
+              <select id="subject" name="fitness">
+                <option>Super Great</option>
+                <option>Great</option>
+                <option>Not so great</option>
+                <option>Awful</option>
+              </select>
+              <label for="subject">Management</label>
+              <select id="subject" name="fitness">
+                <option>Super Great</option>
+                <option>Great</option>
+                <option>Not so great</option>
+                <option>Awful</option>
+              </select>
+            </div>
+          </fieldset>
+        </form>
+      </div>
       <img class="girl" src="images/girl-selecting.png" alt="">
       <img class="pie" src="images/pie-chart.png" alt="">
       <p class="btn">Check our Products</p>
     </div>
-    <div class="island">
+    <div class="island text-center">
       <h2>The ultimate guide to customer feedback</h2>
       <p>At Assay we value the way your customer thinks</p>
-      <div class="grid">
-        <fieldset class="unit xs-1 s-1 m-1-4 l-1-4 xl-1-4 gutter">
-          <legend>1. Overall, how satisfied or disatisfied are you with our company?</legend>
-          <input id="very" type="radio">
-          <label for="very">Very Satisfied</label>
-          <input id="somewhat" type="radio">
-          <label for="somewhat">Somewhat Satisfied</label>
-          <input id="neither" type="radio">
-          <label for="neither">Neither Satisfied nor dissatisfied</label>
-          <input id="disatisfied" type="radio">
-          <label for="disatisfied">Somewhat Dissatisfied</label>
-          <input id="very-dissatisfied" type="radio">
-          <label for="very-dissatisfied">Very Dissatisfied</label>
-          <p class="responses">0 to 10 Answered</p>
-        </fieldset>
-        <fieldset class="unit xs-1 s-1 m-1-4 l-1-4 xl-1-4 gutter">
-          <legend>1. Rate our service from 1-10</legend>
-          <input id="very" type="checkbox">
-          <label for="very">Very Satisfied</label>
-          <input id="somewhat" type="checkbox">
-          <label for="somewhat">Somewhat Satisfied</label>
-          <input id="neither" type="checkbox">
-          <label for="neither">Neither Satisfied nor dissatisfied</label>
-          <input id="disatisfied" type="checkbox">
-          <label for="disatisfied">Somewhat Dissatisfied</label>
-          <input id="very-dissatisfied" type="checkbox">
-          <label for="very-dissatisfied">Very Dissatisfied</label>
-        </fieldset>
-
-        <div class="unit xs-1 s-1 m-1-4 l-1-4 xl-1-4">
-          <img src="images/feedback-box-stars.png" alt="">
+      <div class="grid text-center">
+        <div class="unit xs-1 s-1 m-1-4 l-1-4 xl-1-4 gutter text-left form push push-right pad-t">
+          <fieldset class="push-0">
+            <legend>1. Overall, how satisfied or disatisfied are you with our company?</legend>
+            <input id="very" type="radio">
+            <label class="push-1-2" for="very">Very Satisfied</label>
+            <input id="somewhat" type="radio">
+            <label class="push-1-2" for="somewhat">Somewhat Satisfied</label>
+            <input id="neither" type="radio">
+            <label class="push-1-2" for="neither">Neither Satisfied nor dissatisfied</label>
+            <input id="disatisfied" type="radio">
+            <label class="push-1-2" for="disatisfied">Somewhat Dissatisfied</label>
+            <input id="very-dissatisfied" type="radio">
+            <label class="push-1-2" for="very-dissatisfied">Very Dissatisfied</label>
+            <p class="responses">0 to 10 Answered</p>
+          </fieldset>
         </div>
+        <div class="unit xs-1 s-1 m-1-4 l-1-4 xl-1-4 gutter text-left form push push-right pad-t">
+          <fieldset class="push-0">
+            <legend>1. Rate our service from 1-10</legend>
+            <input id="very" type="checkbox">
+            <label class="push-1-2" for="very">Very Satisfied</label>
+            <input id="somewhat" type="checkbox">
+            <label class="push-1-2" for="somewhat">Somewhat Satisfied</label>
+            <input id="neither" type="checkbox">
+            <label class="push-1-2" for="neither">Neither Satisfied nor dissatisfied</label>
+            <input id="disatisfied" type="checkbox">
+            <label class="push-1-2" for="disatisfied">Somewhat Dissatisfied</label>
+            <input id="very-dissatisfied" type="checkbox">
+            <label class="push-1-2" for="very-dissatisfied">Very Dissatisfied</label>
+          </fieldset>
+        </div>
+        <div class="unit xs-1 s-1 m-1-4 l-1-4 xl-1-4 star form gutter pad-t push">
+          <div class="push">
+            <p>1. How would you rate our customer service?</p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star star-line"></span>
+            <span class="fa fa-star star-line"></span>
+          </div>
+          <div  class="push">
+            <p>2. How would you rate your experience?</p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star star-line"></span>
+            <span class="fa fa-star star-line"></span>
+          </div>
+          <div  class="push">
+            <p>3. How would you rate our retail service?</p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star star-line"></span>
+            <span class="fa fa-star star-line"></span>
+          </div>
+          <div  class="push">
+            <p>4. How would you rate our manager?</p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star star-line"></span>
+            <span class="fa fa-star star-line"></span>
+          </div>
+        </div>
+
       </div>
+
       <p class="btn">Learn More</p>
     </div>
     <div class="grid testimonies gutter-1-2">
@@ -110,27 +188,28 @@
         <p>"Quote from client regarding how awesome this company is"</p>
       </div>
     </div>
-    <div class="text-center relative gutter image-left island">
-      <p class="percentage relative pad-t tera">89% improvement of engagements in customer service</p>
+    <div class="text-center relative gutter image-left island background-bottom">
+      <p class="percentage relative pad-t tera percent">89% improvement of engagements in customer service</p>
       <p class="assay">Survey made easier by Assay</p>
       <img class="guy absolute pin-right-bottom" src="images/guy-in-computer.png" alt="">
     </div>
   </main>
-<footer class="island">
-  <small><b>About Us:</b> The Power of Connection . Start Today . Help Center</small>
-  <small><b>Policies:</b> Terms of Use . Privacy Policy . Anti Spam Policy . Security . Cookies Policy</small>
+<footer class="island text-left">
+  <p><small><b>About Us:</b> The Power of Connection . Start Today . Help Center</small></p>
+  <p><small><b>Policies:</b> Terms of Use . Privacy Policy . Anti Spam Policy . Security . Cookies Policy</small></P>
   <div class="text-center">
-    <ul class="social-media list-group list-group-inline">
+    <ul class="social-media list-group list-group-inline inline">
       <li><a href=""><img src="images/social-media-icon-facebook.png" alt=""></a></li>
       <li><a href=""><img src="images/social-media-icon-twitter.png" alt=""></a></li>
       <li><a href=""><img src="images/social-media-icon-instagram.png" alt=""></a></li>
       <li><a href=""><img src="images/social-media-icon-linkedin.png" alt=""></a></li>
       <li><a href=""><img src="images/social-media-icon-youtube.png" alt=""></a></li>
     </ul>
+    <p><small class="text-center nano">2019 Copyright © Assay, All righst reserved</small></p>
   </div>
-
-  <small class="center-text pico">2019 Copyright © Assay, All righst reserved</small>
-  <img class="logo" src="images/logo.png" alt="">
+  <div class="text-right gutter">
+    <img class="logo-bottom text-right" src="images/logo.png" alt="">
+  </div>
 </footer>
 </body>
 </html>

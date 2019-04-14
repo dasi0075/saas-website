@@ -20,7 +20,9 @@ body {
   border: none;
 }
 
-
+.select-form {
+  background-color: #008f85;
+}
 
 img {
   width: 100%;
@@ -50,7 +52,13 @@ a {
 }
 
 fieldset {
-  border: none;
+  border: 0;
+}
+
+.form {
+  background-color: #fff;
+  box-shadow: 5;
+  border: solid #dbef99 3px;
 }
 
 .pie,
@@ -67,7 +75,11 @@ fieldset {
 }
 
 .logo {
-  width: 40%;
+  width: 30%;
+}
+
+.logo-bottom {
+  width: 20%;
 }
 
 .testimonials {
@@ -114,10 +126,6 @@ h3 {
   width: 60%;
 }
 
-.fa-star {
-  color: #dbef99;
-}
-
 footer {
   background-color: #008f85;
 }
@@ -127,6 +135,10 @@ footer {
 }
 
 .green {
+  color: #dbef99;
+}
+
+.percent {
   color: #dbef99;
 }
 
@@ -151,6 +163,10 @@ footer {
   color: #3c7188;
 }
 
+.background-bottom {
+  padding-top: 5em;
+}
+
 .image-right {
   background-image: url("../images/background-right.png");
   background-size: contain;
@@ -169,6 +185,18 @@ input {
   border: 0;
 }
 
+select {
+  border: 0;
+}
+
 .social-media {
-  width: 15%;
+  width: 5%;
+}
+
+.checked {
+  color: #dbef99;
+}
+
+.star-line {
+  color: #ccc;
 }

@@ -55,6 +55,9 @@ fieldset {
   border: 0;
 }
 
+td, th {
+  border: none;
+}
 .form {
   background-color: #fff;
   box-shadow: 10px 15px 15px gray;
@@ -212,8 +215,24 @@ select {
   color: gray;
 }
 
+.one {
+  color: #3c7188;
+}
+
+.two {
+  color: #dbef99;
+}
+
+.three {
+  color: #56c7bd;
+}
+
 .ib:hover {
   background-color: #aadbd7;
   border-radius: 14px;
   color: #fff;
+}
+
+table {
+  box-shadow: 10px 15px 15px gray;
 }

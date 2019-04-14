@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <header class="pad-t">
+  <header class="pad-t" role="banner">
     <nav class="wrapper gutter-1-2" role="navigation">
       <div class="grid">
         <div class="unit xs-1-2 s-1-2 m-1-4 l-2-3 xl-2-3 text-left">
@@ -40,7 +40,7 @@
         <p class="btn">Learn More</p>
       </div>
   </header>
-  <main>
+  <main role="main">
     <div class="collecting island text-center">
       <p>Assay offers you survey packages to equip your company in order to help you to engage with your customer</p>
       <h3>Make collecting data easier by making their life easier</h3>
@@ -52,32 +52,32 @@
       <h2 class="bold">Analize responses in real time</h2>
       <p>Assay offers you customized survey packages to help you engage with your customer</p>
       <div>
-        <form class="select-form gutter island text-left push-r push-left">
+        <form class="select-form gutter island text-left push-r push-left" role="search">
           <fieldset>
             <legend>1. How would you describe your experience?</legend>
             <div>
-              <label for="subject">Customer Service</label>
+              <label for="service">Customer Service</label>
               <select id="service" name="service">
                 <option>Super Great</option>
                 <option>Great</option>
                 <option>Not so great</option>
                 <option>Awful</option>
               </select>
-              <label for="subject">Survey</label>
+              <label for="survey">Survey</label>
               <select id="survey" name="survey">
                 <option>Super Great</option>
                 <option>Great</option>
                 <option>Not so great</option>
                 <option>Awful</option>
               </select>
-              <label for="subject">Time of wait</label>
+              <label for="wait">Time of wait</label>
               <select id="wait" name="wait">
                 <option>Super Great</option>
                 <option>Great</option>
                 <option>Not so great</option>
                 <option>Awful</option>
               </select>
-              <label for="subject">Management</label>
+              <label for="management">Management</label>
               <select id="management" name="management">
                 <option>Super Great</option>
                 <option>Great</option>
@@ -115,15 +115,15 @@
         <div class="unit xs-1 s-1 m-1-4 l-1-4 xl-1-4 gutter text-left form push push-right pad-t">
           <fieldset class="push-0">
             <legend class="push">1. Rate our service from 1-10</legend>
-            <input id="very" type="checkbox">
+            <input id="happy" type="checkbox">
             <label class="push-1-2" for="happy">Happy</label>
-            <input id="somewhat" type="checkbox">
+            <input id="somewhat-happy" type="checkbox">
             <label class="push-1-2" for="somewhat-happy">Somewhat Happy</label>
-            <input id="neither" type="checkbox">
+            <input id="neither-h-or-u" type="checkbox">
             <label class="push-1-2" for="neither-h-or-u">Neither Happy nor Unhappy</label>
-            <input id="disatisfied" type="checkbox">
+            <input id="unhappy" type="checkbox">
             <label class="push-1-2" for="unhappy">Somewhat Unhappy</label>
-            <input id="very-dissatisfied" type="checkbox">
+            <input id="very-unhappy" type="checkbox">
             <label class="push-1-2" for="very-unhappy">Very Unhappy</label>
           </fieldset>
         </div>
@@ -193,22 +193,22 @@
       <img class="guy absolute pin-right-bottom" src="images/guy-in-computer.png" alt="">
     </div>
   </main>
-<footer class="island text-left">
-  <p><small><b>About Us:</b> The Power of Connection . Start Today . Help Center</small></p>
-  <p><small><b>Policies:</b> Terms of Use . Privacy Policy . Anti Spam Policy . Security . Cookies Policy</small></P>
-  <div class="text-center">
-    <ul class="social-media list-group list-group-inline inline">
-      <li><a href=""><img src="images/social-media-icon-facebook.png" alt=""></a></li>
-      <li><a href=""><img src="images/social-media-icon-twitter.png" alt=""></a></li>
-      <li><a href=""><img src="images/social-media-icon-instagram.png" alt=""></a></li>
-      <li><a href=""><img src="images/social-media-icon-linkedin.png" alt=""></a></li>
-      <li><a href=""><img src="images/social-media-icon-youtube.png" alt=""></a></li>
-    </ul>
-    <p><small class="text-center nano">2019 Copyright © Assay, All righst reserved</small></p>
-  </div>
-  <div class="text-right gutter">
-    <img class="logo-bottom text-right" src="images/logo.png" alt="">
-  </div>
-</footer>
+  <footer class="island text-left">
+    <p><small><b>About Us:</b> The Power of Connection . Start Today . Help Center</small></p>
+    <p><small><b>Policies:</b> Terms of Use . Privacy Policy . Anti Spam Policy . Security . Cookies Policy</small></P>
+    <div class="text-center">
+      <ul class="social-media list-group list-group-inline inline">
+        <li><a href="#facebook"><img src="images/social-media-icon-facebook.png" alt=""></a></li>
+        <li><a href="#twiter"><img src="images/social-media-icon-twitter.png" alt=""></a></li>
+        <li><a href="#instagram"><img src="images/social-media-icon-instagram.png" alt=""></a></li>
+        <li><a href="#linkedin"><img src="images/social-media-icon-linkedin.png" alt=""></a></li>
+        <li><a href="#youtube"><img src="images/social-media-icon-youtube.png" alt=""></a></li>
+      </ul>
+      <p><small class="text-center nano">2019 Copyright © Assay, All righst reserved</small></p>
+    </div>
+    <div class="text-right gutter">
+      <img class="logo-bottom text-right" src="images/logo.png" alt="">
+    </div>
+  </footer>
 </body>
 </html>

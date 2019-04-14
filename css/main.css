@@ -57,8 +57,7 @@ fieldset {
 
 .form {
   background-color: #fff;
-  box-shadow: 5;
-  border: solid #dbef99 3px;
+  box-shadow: 10px 15px 15px gray;
 }
 
 .pie,

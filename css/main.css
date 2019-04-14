@@ -145,6 +145,10 @@ footer {
   background-color: #56c7bd;
 }
 
+.faq {
+  color: #3c7188;
+}
+
 .h2-white,
 .p-white {
   color: #fff;
@@ -198,4 +202,16 @@ select {
 
 .star-line {
   color: #ccc;
+}
+
+.white {
+  color: #fff;
+}
+
+.price {
+  color: #3c7188;
+}
+
+.gray {
+  color: gray;
 }

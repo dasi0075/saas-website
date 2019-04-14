@@ -184,10 +184,6 @@ footer {
   background-repeat: no-repeat;
 }
 
-input {
-  border: 0;
-}
-
 select {
   border: 0;
 }
@@ -214,4 +210,10 @@ select {
 
 .gray {
   color: gray;
+}
+
+.ib:hover {
+  background-color: #aadbd7;
+  border-radius: 14px;
+  color: #fff;
 }

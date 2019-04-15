@@ -65,7 +65,7 @@ td, th {
 
 .pie,
 .girl {
-  width: 40%;
+  width: 30%;
 }
 
 .guy {
@@ -97,7 +97,11 @@ td, th {
 }
 
 .guy-knees {
-  width: 40%;
+  width: 30%;
+}
+
+.connection {
+  width: 60%;
 }
 
 .testimonies {

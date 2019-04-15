@@ -3,7 +3,6 @@ html {
 }
 
 body {
-  margin: 0;
   background-color: #fff;
 }
 
@@ -58,6 +57,7 @@ fieldset {
 td, th {
   border: none;
 }
+
 .form {
   background-color: #fff;
   box-shadow: 10px 15px 15px gray;

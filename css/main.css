@@ -191,6 +191,10 @@ select {
   border: 0;
 }
 
+input {
+  border: 0;
+}
+
 .social-media {
   width: 5%;
 }
@@ -225,6 +229,10 @@ select {
 
 .two {
   color: #dbef99;
+}
+
+.light-green-box {
+  background-color: #dbef99;
 }
 
 .three {

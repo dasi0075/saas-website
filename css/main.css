@@ -26,7 +26,7 @@ body {
 
 img {
   width: 100%;
-  max-width: auto;
+  max-width: 100%;
 }
 
 h1 {
@@ -69,7 +69,7 @@ td, th {
 }
 
 .guy {
-  width: 30%;
+  width: 20%;
 }
 
 .guy-pencil {
@@ -235,4 +235,8 @@ select {
 
 table {
   box-shadow: 10px 15px 15px gray;
+}
+
+.faq-questions {
+  color: #aadbd7;
 }

@@ -7,7 +7,7 @@ body {
 }
 
 .btn {
-  background-color: #00574E;
+  background-color: #00574e;
   border-radius: 12px;
   border: none;
 }
@@ -20,7 +20,7 @@ body {
 }
 
 .select-form {
-  background-color: #00574E;
+  background-color: #00574e;
 }
 
 img {
@@ -29,15 +29,17 @@ img {
 }
 
 h1 {
-  color: #00574E;
+  color: #00574e;
 }
 
 .about {
-  color: #00574E;
+  color: #00574e;
 }
 
 nav:hover {
   width: auto;
+  color: #000;
+  border-color: #a6a6a6;
 }
 
 a {
@@ -60,7 +62,7 @@ td, th {
 
 .form {
   background-color: #fff;
-  box-shadow: 10px 15px 15px #EDEDED;
+  box-shadow: 10px 15px 15px #ededed;
 }
 
 .pie,
@@ -213,7 +215,7 @@ input {
 }
 
 .star-line {
-  color: #EDEDED;
+  color: #ededed;
 }
 
 .white {
@@ -225,7 +227,7 @@ input {
 }
 
 .gray {
-  color: #A6A6A6;
+  color: #a6a6a6;
 }
 
 .one {
@@ -255,7 +257,7 @@ input {
 }
 
 table {
-  box-shadow: 10px 15px 15px gray;
+  box-shadow: 10px 15px 15px #a6a6a6;
 }
 
 .faq-questions {

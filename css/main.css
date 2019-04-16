@@ -7,7 +7,7 @@ body {
 }
 
 .btn {
-  background-color: #008f85;
+  background-color: #00756D;
   border-radius: 12px;
   border: none;
 }
@@ -20,7 +20,7 @@ body {
 }
 
 .select-form {
-  background-color: #008f85;
+  background-color: #00756D;
 }
 
 img {
@@ -29,11 +29,11 @@ img {
 }
 
 h1 {
-  color: #008f85;
+  color: #00756D;
 }
 
 .about {
-  color: #008f85;
+  color: #00756D;
 }
 
 nav:hover {
@@ -43,7 +43,7 @@ nav:hover {
 a {
   list-style-type: none;
   text-decoration: none;
-  color: #008f85;
+  color: #00756D;
 }
 
 .light-box {

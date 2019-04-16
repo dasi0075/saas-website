@@ -3,7 +3,7 @@ html {
 }
 
 .btn {
-  background-color: #00574e;
+  background-color: #007367;
   border-radius: 12px;
   border: none;
 }
@@ -16,7 +16,7 @@ html {
 }
 
 .select-form {
-  background-color: #00574e;
+  background-color: #007367;
 }
 
 img {
@@ -25,11 +25,11 @@ img {
 }
 
 h1 {
-  color: #00574e;
+  color: #007367;
 }
 
 .about {
-  color: #00574e;
+  color: #007367;
 }
 
 nav:hover {
@@ -112,7 +112,7 @@ td, th {
 }
 
 .collecting {
-  background-color: #9aab5e;
+  background-color: #aadbd7;
 }
 
 .responses {
@@ -129,10 +129,6 @@ h2 {
 
 h3 {
   color: #3c7188;
-}
-
-.computer {
-  width: 60%;
 }
 
 footer {
@@ -169,7 +165,7 @@ footer {
 }
 
 .btn:hover {
-  background-color: #3c7188;
+  background-color: #9aab5e;
 }
 
 .click {
@@ -243,11 +239,11 @@ input {
 }
 
 .three {
-  color: #56c7bd;
+  color: #007367;
 }
 
 .ib:hover {
-  background-color: #aadbd7;
+  background-color: #9aab5e;
   border-radius: 14px;
   color: #fff;
 }

@@ -43,7 +43,7 @@ nav:hover {
 a {
   list-style-type: none;
   text-decoration: none;
-  color: #aadbd7;
+  color: #008f85;
 }
 
 .light-box {
@@ -106,6 +106,7 @@ td, th {
 
 .connection {
   width: 60%;
+  z-index: -1;
 }
 
 .testimonies {
@@ -113,19 +114,19 @@ td, th {
 }
 
 .collecting {
-  background-color: #dbef99;
+  background-color: #9aab5e;
 }
 
 .responses {
-  background-color: #dbef99;
+  background-color: #9aab5e;
 }
 
 .assay {
-  color: #dbef99;
+  color: #9aab5e;
 }
 
 h2 {
-  color: #dbef99;
+  color: #9aab5e;
 }
 
 h3 {
@@ -141,15 +142,15 @@ footer {
 }
 
 .green-box {
-  background-color: #dbef99;
+  background-color: #9aab5e;
 }
 
 .green {
-  color: #dbef99;
+  color: #9aab5e;
 }
 
 .percent {
-  color: #dbef99;
+  color: #9aab5e;
 }
 
 .teal-box {
@@ -208,7 +209,7 @@ input {
 }
 
 .checked {
-  color: #dbef99;
+  color: #9aab5e;
 }
 
 .star-line {
@@ -220,7 +221,7 @@ input {
 }
 
 .price {
-  color: #dbef99;
+  color: #9aab5e;
 }
 
 .gray {
@@ -236,11 +237,11 @@ input {
 }
 
 .two {
-  color: #dbef99;
+  color: #9aab5e;
 }
 
 .light-green-box {
-  background-color: #dbef99;
+  background-color: #9aab5e;
 }
 
 .three {

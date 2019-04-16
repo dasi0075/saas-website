@@ -259,3 +259,7 @@ table {
 .faq-questions {
   color: #9aab5e;
 }
+
+tbody tr:nth-child(odd) {
+  background-color: #aadbd7;
+}

@@ -45,7 +45,7 @@ nav:hover {
 a {
   list-style-type: none;
   text-decoration: none;
-  color: #00574E;
+  color: #00574e;
 }
 
 .light-box {
@@ -227,7 +227,7 @@ input {
 }
 
 .gray {
-  color: #a6a6a6;
+  color: #636363;
 }
 
 .one {
@@ -261,5 +261,5 @@ table {
 }
 
 .faq-questions {
-  color: #aadbd7;
+  color: #9aab5e;
 }

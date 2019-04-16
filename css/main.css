@@ -65,11 +65,15 @@ td, th {
 
 .pie,
 .girl {
-  width: 30%;
+  width: 20%;
+}
+
+.girl-sitting {
+  width: 50%;
 }
 
 .guy {
-  width: 20%;
+  width: 15%;
 }
 
 .guy-pencil {
@@ -81,7 +85,7 @@ td, th {
 }
 
 .logo-bottom {
-  width: 20%;
+  width: 10%;
 }
 
 .testimonials {

@@ -55,40 +55,48 @@
         </a>
       </div>
       <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-        <img class="computer media embed pad-t" src="images/devices-with-survey.png" alt="" aria-details="computer-with-survey">
+        <img class="computer media embed embed-1by1 pad-t" src="images/devices-with-survey.png" alt="" aria-details="computer-with-survey">
       </div>
     </section>
     <div class="island text-center">
       <h2 class="bold">Analize responses in real time</h2>
       <p class="gray">Assay offers you customized survey packages to help you engage with your customer</p>
-      <div class="grid text-center">
-        <form class="unit xs-1 s-1-2 m-1-3 l-1-3 xl-1-3 select-form gutter island text-left push-left" method="POST" action="https://formspree.io/nadia.otake@gmail.com" role="search">
+      <div class="grid text-center push">
+        <div class="unit xs-1 s-1-2 m-1-2 l-1-2 xl-1-2 pin-bottom">
+          <img class="girl push-left" src="images/girl-selecting.png" alt="" role="presentation">
+        </div>
+
+        <form class="unit xs-1 s-1-2 m-1-3 l-1-3 xl-1-3 unit-offset-m-1-3 select-form gutter island text-left push-left" method="POST" action="https://formspree.io/nadia.otake@gmail.com" role="search">
           <fieldset>
-            <legend>1. How would you describe your experience?</legend>
+            <legend class="white">1. How would you describe your experience?</legend>
             <div>
               <label class="micro white" for="service">Customer Service</label>
-              <select class="push" id="service" name="service">
+              <select class="push" id="service" name="service" required>
+                <option></option>
                 <option>Super Great</option>
                 <option>Great</option>
                 <option>Not so great</option>
                 <option>Awful</option>
               </select>
               <label class="micro white" for="survey">Survey</label>
-              <select class="push" id="survey" name="survey">
+              <select class="push" id="survey" name="survey" required>
+                <option></option>
                 <option>Super Great</option>
                 <option>Great</option>
                 <option>Not so great</option>
                 <option>Awful</option>
               </select>
               <label class="micro white" for="wait">Time of wait</label>
-              <select class="push" id="wait" name="wait">
+              <select class="push" id="wait" name="wait" required>
+                <option></option>
                 <option>Super Great</option>
                 <option>Great</option>
                 <option>Not so great</option>
                 <option>Awful</option>
               </select>
               <label class="micro white" for="management">Management</label>
-              <select class="push" id="management" name="management">
+              <select class="push" id="management" name="management" required>
+                <option></option>
                 <option>Super Great</option>
                 <option>Great</option>
                 <option>Not so great</option>
@@ -98,10 +106,7 @@
           </fieldset>
         </form>
       </div>
-      <div class="text-left embed">
-        <img class="girl push-left" src="images/girl-selecting.png" alt="" role="presentation">
-      </div>
-      <img class="unit xs-1 s-1-2 m-1-3 l-1-3 xl-1-3 text-right hidden pie" src="images/pie-chart.png" alt="" role="presentation">
+      <img class="unit xs-1 s-1-2 m-1-3 l-1-3 xl-1-3 text-right hidden pie push" src="images/pie-chart.png" alt="" role="presentation">
       <a href="products.html">
         <p class="btn">Check our Products</p>
       </a>
@@ -110,80 +115,86 @@
       <h2>The ultimate guide to customer feedback</h2>
       <p class="gray">At Assay we value the way your customer thinks</p>
       <div class="grid text-center">
-        <div class="unit xs-1 s-1 m-1-4 l-1-4 xl-1-4 gutter text-left form push push-right pad-t">
-          <fieldset class="push-0">
-            <legend class="push">1. Overall, how satisfied or disatisfied are you with our company?</legend>
-            <input id="very" type="radio">
-            <label class="push-1-2" for="very">Very Satisfied</label>
-            <input id="somewhat" type="radio">
-            <label class="push-1-2" for="somewhat">Somewhat Satisfied</label>
-            <input id="neither" type="radio">
-            <label class="push-1-2" for="neither">Neither Satisfied nor dissatisfied</label>
-            <input id="disatisfied" type="radio">
-            <label class="push-1-2" for="disatisfied">Somewhat Dissatisfied</label>
-            <input id="very-dissatisfied" type="radio">
-            <label class="push-1-2" for="very-dissatisfied">Very Dissatisfied</label>
-            <p class="responses">0 to 10 Answered</p>
-          </fieldset>
+        <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 gutter text-left push pad-t">
+          <div class=" island form">
+            <fieldset class="push-0">
+              <legend class="push">1. Overall, how satisfied or disatisfied are you with our company?</legend>
+              <input id="very" type="radio">
+              <label class="push-1-2" for="very">Very Satisfied</label>
+              <input id="somewhat" type="radio">
+              <label class="push-1-2" for="somewhat">Somewhat Satisfied</label>
+              <input id="neither" type="radio">
+              <label class="push-1-2" for="neither">Neither Satisfied nor dissatisfied</label>
+              <input id="disatisfied" type="radio">
+              <label class="push-1-2" for="disatisfied">Somewhat Dissatisfied</label>
+              <input id="very-dissatisfied" type="radio">
+              <label class="push-1-2" for="very-dissatisfied">Very Dissatisfied</label>
+              <p class="responses">0 to 10 Answered</p>
+            </fieldset>
+          </div>
         </div>
-        <div class="unit xs-1 s-1 m-1-4 l-1-4 xl-1-4 gutter text-left form push push-right pad-t">
-          <fieldset class="push-0">
-            <legend class="push">1. Rate our service from 1-10</legend>
-            <input id="happy" type="checkbox">
-            <label class="push-1-2" for="happy">Happy</label>
-            <input id="somewhat-happy" type="checkbox">
-            <label class="push-1-2" for="somewhat-happy">Somewhat Happy</label>
-            <input id="neither-h-or-u" type="checkbox">
-            <label class="push-1-2" for="neither-h-or-u">Neither Happy nor Unhappy</label>
-            <input id="unhappy" type="checkbox">
-            <label class="push-1-2" for="unhappy">Somewhat Unhappy</label>
-            <input id="very-unhappy" type="checkbox">
-            <label class="push-1-2" for="very-unhappy">Very Unhappy</label>
-          </fieldset>
+        <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 gutter text-left push pad-t">
+          <div class=" island form">
+            <fieldset class="push-0">
+              <legend class="push">1. Rate our service from 1-10</legend>
+              <input id="happy" type="checkbox">
+              <label class="push-1-2" for="happy">Happy</label>
+              <input id="somewhat-happy" type="checkbox">
+              <label class="push-1-2" for="somewhat-happy">Somewhat Happy</label>
+              <input id="neither-h-or-u" type="checkbox">
+              <label class="push-1-2" for="neither-h-or-u">Neither Happy nor Unhappy</label>
+              <input id="unhappy" type="checkbox">
+              <label class="push-1-2" for="unhappy">Somewhat Unhappy</label>
+              <input id="very-unhappy" type="checkbox">
+              <label class="push-1-2" for="very-unhappy">Very Unhappy</label>
+            </fieldset>
+          </div>
         </div>
-        <div class="unit xs-1 s-1 m-1-4 l-1-4 xl-1-4 star form gutter pad-t push push-right text-left">
-          <div class="push">
-            <p class="bold">1. How would you rate our customer service?</p>
-            <div class="giga text-center">
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star star-line"></span>
+        <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 star gutter pad-t push text-left">
+          <div class="form island">
+            <div class="push-1-2">
+              <p class="bold">1. How would you rate our customer service?</p>
+              <div class="giga text-center">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star star-line"></span>
+              </div>
             </div>
-          </div>
-          <div class="push">
-            <p class="bold">2. How would you rate your experience?</p>
-            <div class="giga text-center">
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star star-line"></span>
-              <span class="fa fa-star star-line"></span>
+            <div class="push-1-2">
+              <p class="bold">2. How would you rate your experience?</p>
+              <div class="giga text-center">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star star-line"></span>
+                <span class="fa fa-star star-line"></span>
+              </div>
             </div>
-          </div>
-          <div class="push">
-            <p class="bold">3. How would you rate our retail service?</p>
-            <div class="giga text-center">
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star star-line"></span>
-              <span class="fa fa-star star-line"></span>
-              <span class="fa fa-star star-line"></span>
-              <span class="fa fa-star star-line"></span>
+            <div class="push-1-2">
+              <p class="bold">3. How would you rate our retail service?</p>
+              <div class="giga text-center">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star star-line"></span>
+                <span class="fa fa-star star-line"></span>
+                <span class="fa fa-star star-line"></span>
+                <span class="fa fa-star star-line"></span>
+              </div>
             </div>
-          </div>
-          <div class="push">
-            <p class="bold">4. How would you rate our manager?</p>
-            <div class="giga text-center">
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star star-line"></span>
-              <span class="fa fa-star star-line"></span>
+            <div class="push-1-2">
+              <p class="bold">4. How would you rate our manager?</p>
+              <div class="giga text-center">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star star-line"></span>
+                <span class="fa fa-star star-line"></span>
+              </div>
             </div>
           </div>
         </div>

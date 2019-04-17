@@ -224,6 +224,10 @@ input {
   color: #3c7188;
 }
 
+.btn-2:hover {
+  background-color: #007367;
+}
+
 .two {
   color: #9aab5e;
 }

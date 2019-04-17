@@ -32,12 +32,6 @@ h1 {
   color: #007367;
 }
 
-nav:hover {
-  width: auto;
-  color: #000;
-  border-color: #a6a6a6;
-}
-
 a {
   list-style-type: none;
   text-decoration: none;

@@ -263,6 +263,10 @@ tbody tr:nth-child(odd) {
   background-color: #aadbd7;
 }
 
+.skip-links a:focus {
+  top:0;
+}
+
 @media only screen and (min-width: 60em) {
 
   .table-wrapper {

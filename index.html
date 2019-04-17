@@ -47,7 +47,7 @@
       </a>
     </div>
   </header>
-  <main role="main">
+  <main role="main" id="main" tabindex="0">
     <section class="grid collecting island text-center">
       <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
         <h3 class="push-1-2 pad-t">Make collecting data easier by making their life easier</h3>
@@ -120,17 +120,26 @@
           <div class=" island form">
             <fieldset class="push-0">
               <legend class="push">1. Overall, how satisfied or disatisfied are you with our company?</legend>
-              <input id="very" type="radio" name="satisfaction">
-              <label class="push-1-2" for="very">Very Satisfied</label>
-              <input id="somewhat" type="radio" name="satisfaction">
-              <label class="push-1-2" for="somewhat">Somewhat Satisfied</label>
-              <input id="neither" type="radio" name="satisfaction">
-              <label class="push-1-2" for="neither">Neither Satisfied nor dissatisfied</label>
-              <input id="disatisfied" type="radio" name="satisfaction">
-              <label class="push-1-2" for="disatisfied">Somewhat Dissatisfied</label>
-              <input id="very-dissatisfied" type="radio" name="satisfaction">
-              <label class="push-1-2" for="very-dissatisfied">Very Dissatisfied</label>
-              <p class="responses">0 to 10 Answered</p>
+
+                <input id="very" type="radio" name="satisfaction">
+                <label class="push-1-2" for="very">Very Satisfied</label>
+              <div class="block">
+                <input id="somewhat" type="radio" name="satisfaction">
+                <label class="push-1-2" for="somewhat">Somewhat Satisfied</label>
+              </div>
+              <div class="block">
+                <input id="neither" type="radio" name="satisfaction">
+                <label class="push-1-2" for="neither">Neither Satisfied nor dissatisfied</label>
+              </div>
+              <div class="block">
+                <input id="disatisfied" type="radio" name="satisfaction">
+                <label class="push-1-2" for="disatisfied">Somewhat Dissatisfied</label>
+              </div>
+              <div class="block">
+                <input id="very-dissatisfied" type="radio" name="satisfaction">
+                <label class="push-1-2" for="very-dissatisfied">Very Dissatisfied</label>
+              </div>
+              <p class="responses pad-t pad-b text-center white mega">0 to 10 Answered</p>
             </fieldset>
           </div>
         </div>

@@ -246,7 +246,7 @@ input {
   color: #007367;
 }
 
-.ib:hover {
+nav .ib:hover {
   background-color: #9aab5e;
   border-radius: 14px;
   color: #fff;

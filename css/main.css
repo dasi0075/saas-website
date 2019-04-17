@@ -71,7 +71,7 @@ td, th {
 }
 
 .guy {
-  width: 60%;
+  width: 40%;
 }
 
 .guy-pencil {
@@ -254,6 +254,7 @@ input {
 
 table {
   box-shadow: 10px 15px 15px #a6a6a6;
+  min-width: 50em;
 }
 
 .faq-questions {
@@ -263,11 +264,6 @@ table {
 tbody tr:nth-child(odd) {
   background-color: #aadbd7;
 }
-
-table {
-  min-width: 50em;
-}
-
 
 @media only screen and (min-width: 60em) {
 

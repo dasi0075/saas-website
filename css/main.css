@@ -264,7 +264,7 @@ tbody tr:nth-child(odd) {
 }
 
 .skip-links a:focus {
-  top:0;
+  top: 0;
 }
 
 @media only screen and (min-width: 60em) {

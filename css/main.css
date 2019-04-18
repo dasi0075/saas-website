@@ -5,14 +5,14 @@ html {
 .btn {
   background-color: #007367;
   border-radius: 12px;
-  border: solid 3px #325d71;
+  border: solid 2px #aadbd7;
 }
 
 .btn-white {
   background-color: #fff;
   color: #325d71;
   border-radius: 12px;
-  border: solid 3px #325d71;
+  border: solid 2px #aadbd7;
 }
 
 .select-form {
@@ -142,7 +142,7 @@ footer {
 }
 
 .teal-box {
-  background-color: #56c7bd;
+  background-color: #00574e;
 }
 
 .faq {

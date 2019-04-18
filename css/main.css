@@ -247,8 +247,9 @@ input {
 }
 
 nav .ib:hover {
-  background-color: #9aab5e;
+  background-color: #545d32;
   border-radius: 14px;
+  border: solid 3px #000;
   color: #fff;
 }
 

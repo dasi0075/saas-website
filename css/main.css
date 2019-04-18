@@ -114,7 +114,7 @@ td, th {
 }
 
 .assay {
-  color: #9aab5e;
+  color: #545d32;
 }
 
 h2 {
@@ -130,15 +130,15 @@ footer {
 }
 
 .green-box {
-  background-color: #9aab5e;
+  background-color: #545d32;
 }
 
 .green {
-  color: #9aab5e;
+  color: #545d32;
 }
 
 .percent {
-  color: #9aab5e;
+  color: #545d32;
 }
 
 .teal-box {
@@ -159,11 +159,11 @@ footer {
 }
 
 .btn:hover {
-  background-color: #9aab5e;
+  background-color: #545d32;
 }
 
 .click {
-  color: #9aab5e;
+  color: #545d32;
 }
 
 .background-bottom {
@@ -197,7 +197,7 @@ input {
 }
 
 .checked {
-  color: #9aab5e;
+  color: #545d32;
 }
 
 .star-line {
@@ -209,7 +209,7 @@ input {
 }
 
 .price {
-  color: #9aab5e;
+  color: #545d32;
 }
 
 .gray {
@@ -229,7 +229,7 @@ input {
 }
 
 .two {
-  color: #9aab5e;
+  color: #545d32;
 }
 
 .light-green-box {
@@ -256,7 +256,7 @@ table {
 }
 
 .faq-questions {
-  color: #9aab5e;
+  color: #545d32;
 }
 
 tbody tr:nth-child(odd) {

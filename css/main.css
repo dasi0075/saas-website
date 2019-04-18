@@ -5,14 +5,14 @@ html {
 .btn {
   background-color: #007367;
   border-radius: 12px;
-  border: solid 2px #aadbd7;
+  border: none;
 }
 
 .btn-white {
   background-color: #fff;
   color: #325d71;
   border-radius: 12px;
-  border: solid 2px #aadbd7;
+  border: none;
 }
 
 .select-form {
@@ -225,7 +225,9 @@ input {
 }
 
 .btn-2:hover {
-  background-color: #007367;
+  background-color: #aadbd7;
+  color: #000;
+  border: solid 2px #fff;
 }
 
 .two {

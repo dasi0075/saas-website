@@ -5,14 +5,14 @@ html {
 .btn {
   background-color: #007367;
   border-radius: 12px;
-  border: none;
+  border: solid 3px #325d71;
 }
 
 .btn-white {
   background-color: #fff;
   color: #325d71;
   border-radius: 12px;
-  border: none;
+  border: solid 3px #325d71;
 }
 
 .select-form {

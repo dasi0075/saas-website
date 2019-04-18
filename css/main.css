@@ -253,6 +253,10 @@ nav a:hover {
   color: #fff;
 }
 
+nav:hover {
+  background-color: #f7f7f7;
+}
+
 table {
   box-shadow: 10px 15px 15px #a6a6a6;
   min-width: 50em;
